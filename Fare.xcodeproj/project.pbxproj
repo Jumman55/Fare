@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A713C0012761A1D500031F95 /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A713C0002761A1D500031F95 /* LoginPageView.swift */; };
+		A7496E1A275ABC100015D55E /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7496E19275ABC100015D55E /* SoundPlayer.swift */; };
+		A7496E1C275AC2FE0015D55E /* CheckboxStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7496E1B275AC2FE0015D55E /* CheckboxStyleView.swift */; };
+		A7496E1E275ACCF40015D55E /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7496E1D275ACCF40015D55E /* BackgroundView.swift */; };
 		A7926EE427582FBD00AC2FB9 /* FareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7926EE327582FBD00AC2FB9 /* FareApp.swift */; };
 		A7926EE627582FBD00AC2FB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7926EE527582FBD00AC2FB9 /* ContentView.swift */; };
 		A7926EE827582FBE00AC2FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7926EE727582FBE00AC2FB9 /* Assets.xcassets */; };
 		A7926EEB27582FBE00AC2FB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7926EEA27582FBE00AC2FB9 /* Preview Assets.xcassets */; };
 		A7926EED27582FBE00AC2FB9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7926EEC27582FBE00AC2FB9 /* Persistence.swift */; };
 		A7926EF027582FBE00AC2FB9 /* Fare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7926EEE27582FBE00AC2FB9 /* Fare.xcdatamodeld */; };
+		A7926EF92758362C00AC2FB9 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A7926EF62758362C00AC2FB9 /* sound-tap.mp3 */; };
+		A7926EFA2758362C00AC2FB9 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A7926EF72758362C00AC2FB9 /* sound-ding.mp3 */; };
+		A7926EFB2758362C00AC2FB9 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A7926EF82758362C00AC2FB9 /* sound-rise.mp3 */; };
+		A7926F0427584B7E00AC2FB9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7926F0327584B7E00AC2FB9 /* Constant.swift */; };
+		A7926F0827585EC300AC2FB9 /* HidekeyboardExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7926F0727585EC300AC2FB9 /* HidekeyboardExtention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A713C0002761A1D500031F95 /* LoginPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageView.swift; sourceTree = "<group>"; };
+		A7496E19275ABC100015D55E /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		A7496E1B275AC2FE0015D55E /* CheckboxStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyleView.swift; sourceTree = "<group>"; };
+		A7496E1D275ACCF40015D55E /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		A7926EE027582FBD00AC2FB9 /* Fare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7926EE327582FBD00AC2FB9 /* FareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FareApp.swift; sourceTree = "<group>"; };
 		A7926EE527582FBD00AC2FB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +36,12 @@
 		A7926EEA27582FBE00AC2FB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A7926EEC27582FBE00AC2FB9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A7926EEF27582FBE00AC2FB9 /* Fare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fare.xcdatamodel; sourceTree = "<group>"; };
+		A7926EF62758362C00AC2FB9 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
+		A7926EF72758362C00AC2FB9 /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
+		A7926EF82758362C00AC2FB9 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		A7926F022758383D00AC2FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A7926F0327584B7E00AC2FB9 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		A7926F0727585EC300AC2FB9 /* HidekeyboardExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HidekeyboardExtention.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +75,14 @@
 			isa = PBXGroup;
 			children = (
 				A7926EE327582FBD00AC2FB9 /* FareApp.swift */,
-				A7926EE527582FBD00AC2FB9 /* ContentView.swift */,
+				A7926EFE2758368C00AC2FB9 /* View */,
+				A7926F012758371700AC2FB9 /* Model */,
+				A7926F00275836C400AC2FB9 /* Style */,
+				A7926EFF2758369700AC2FB9 /* Utility */,
+				A7926EFD2758366A00AC2FB9 /* Extension */,
+				A7926EFC2758363A00AC2FB9 /* Sounds */,
 				A7926EE727582FBE00AC2FB9 /* Assets.xcassets */,
-				A7926EEC27582FBE00AC2FB9 /* Persistence.swift */,
-				A7926EEE27582FBE00AC2FB9 /* Fare.xcdatamodeld */,
+				A7926F022758383D00AC2FB9 /* Info.plist */,
 				A7926EE927582FBE00AC2FB9 /* Preview Content */,
 			);
 			path = Fare;
@@ -71,6 +94,60 @@
 				A7926EEA27582FBE00AC2FB9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7926EFC2758363A00AC2FB9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A7926EF82758362C00AC2FB9 /* sound-rise.mp3 */,
+				A7926EF62758362C00AC2FB9 /* sound-tap.mp3 */,
+				A7926EF72758362C00AC2FB9 /* sound-ding.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		A7926EFD2758366A00AC2FB9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A7926F0727585EC300AC2FB9 /* HidekeyboardExtention.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A7926EFE2758368C00AC2FB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7926EE527582FBD00AC2FB9 /* ContentView.swift */,
+				A7496E1D275ACCF40015D55E /* BackgroundView.swift */,
+				A713C0002761A1D500031F95 /* LoginPageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7926EFF2758369700AC2FB9 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A7926F0327584B7E00AC2FB9 /* Constant.swift */,
+				A7496E19275ABC100015D55E /* SoundPlayer.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		A7926F00275836C400AC2FB9 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				A7496E1B275AC2FE0015D55E /* CheckboxStyleView.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		A7926F012758371700AC2FB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7926EEC27582FBE00AC2FB9 /* Persistence.swift */,
+				A7926EEE27582FBE00AC2FB9 /* Fare.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +208,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7926EFB2758362C00AC2FB9 /* sound-rise.mp3 in Resources */,
+				A7926EFA2758362C00AC2FB9 /* sound-ding.mp3 in Resources */,
+				A7926EF92758362C00AC2FB9 /* sound-tap.mp3 in Resources */,
 				A7926EEB27582FBE00AC2FB9 /* Preview Assets.xcassets in Resources */,
 				A7926EE827582FBE00AC2FB9 /* Assets.xcassets in Resources */,
 			);
@@ -143,8 +223,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7496E1E275ACCF40015D55E /* BackgroundView.swift in Sources */,
 				A7926EED27582FBE00AC2FB9 /* Persistence.swift in Sources */,
+				A7496E1A275ABC100015D55E /* SoundPlayer.swift in Sources */,
+				A713C0012761A1D500031F95 /* LoginPageView.swift in Sources */,
 				A7926EE627582FBD00AC2FB9 /* ContentView.swift in Sources */,
+				A7926F0427584B7E00AC2FB9 /* Constant.swift in Sources */,
+				A7926F0827585EC300AC2FB9 /* HidekeyboardExtention.swift in Sources */,
+				A7496E1C275AC2FE0015D55E /* CheckboxStyleView.swift in Sources */,
 				A7926EE427582FBD00AC2FB9 /* FareApp.swift in Sources */,
 				A7926EF027582FBE00AC2FB9 /* Fare.xcdatamodeld in Sources */,
 			);
@@ -280,9 +366,10 @@
 				DEVELOPMENT_TEAM = TL6Q43TK9R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fare/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,9 +396,10 @@
 				DEVELOPMENT_TEAM = TL6Q43TK9R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fare/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

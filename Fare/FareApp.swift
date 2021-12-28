@@ -10,11 +10,17 @@ import SwiftUI
 @main
 struct FareApp: App {
     let persistenceController = PersistenceController.shared
+    @AppStorage("isOnLoginPage") var  isOnLoginPage: Bool = true
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            if isOnLoginPage{
+                LoginPageView()
+            }else{
+                ContentView()
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            }
+                
         }
     }
 }
